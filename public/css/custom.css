@@ -1,0 +1,94 @@
+td.details-control {
+    background: url('../resources/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../resources/details_close.png') no-repeat center center;
+}
+
+.ingegre-titulo {
+	font-size :14px;
+	font-weight: bold;
+}
+
+.ingegre-detalle1{
+	padding-left: 10px;
+}
+
+.ingegre-detalle2{
+	padding-left: 20px;
+}
+
+.ingegre-detalle3{
+	padding-left: 30px;
+}
+
+.ingegre-total{
+	text-align: right;
+	font-weight: bold;	
+}
+
+.ingegre-numero{
+	font-weight: bold;		
+}
+
+.ingegre-titulo2{
+	font-weight: bold;		
+	padding-left: 10px;
+}
+
+.ingegre-titulo3{
+	font-weight: bold;		
+	padding-left: 20px;
+}
+
+.ingegre-positivo{
+	font-weight: bold;		
+	color: #008000;
+}
+
+.ingegre-negativo{
+	font-weight: bold;		
+	color: #FF0000;
+}
+
+
+
+@media (min-width: 250px) {
+  	.nombredoncominio {
+		font-size: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-weight:bold;
+	}
+
+	.footernetus {
+		position: static;
+		left:0;
+		bottom:0;
+		width:100%; 
+		color: #e1e1e2; 
+		padding: 15px 20px;
+	}
+}
+
+@media (min-width: 720px) {
+	.nombredoncominio {
+			font-size: 25px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+	.footernetus {
+		position:fixed;
+		left:0;
+		bottom:0;
+		width:100%; 
+		background-color: #2a3f54;
+		color: #e1e1e2; 
+	}
+}
+
+.sum {
+	text-align: right;
+}
